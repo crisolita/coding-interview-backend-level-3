@@ -69,7 +69,6 @@ describe('E2E Tests', () => {
                 name: 'Item 1',
                 price: 10
             })
-
             const response2 = await server.inject({
                 method: 'GET',
                 url: `/items/${response.result!.id}`
